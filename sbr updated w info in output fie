@@ -244,7 +244,7 @@ def run_test(stdscr, user_password, inputnum_loops, kill, slotlist):
 
     end_time = datetime.now()
     output_lines.append(f"End Time: {end_time}")
-    output_lines.append(f"Slot Test Counts: {slot_test_count}")
+    output_lines.append(f"Slot Test Counts: {num_loops}")
 
     with open("output.txt", "w") as file:
         for line in output_lines:
